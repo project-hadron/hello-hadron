@@ -35,11 +35,11 @@ def find_version(*file_paths):
 
 
 setup(
-    name='ds-transition-hello-world',
-    version=find_version('ds_hw', '__init__.py'),
+    name='hello_hadron',
+    version=find_version('hello_hadron', '__init__.py'),
     description='Python projects creating hello world examples for Project Hadron Components',
     long_description=read('README.rst'),
-    url='http://github.com/project-hadron/ds-transition-hello-world ',
+    url='http://github.com/project-hadron/hello_hadron ',
     author='Gigas64',
     author_email='gigas64@opengrass.net',
     classifiers=[
